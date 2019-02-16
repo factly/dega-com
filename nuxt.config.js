@@ -1,4 +1,10 @@
 const pkg = require('./package')
+/* only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES` */
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+router: {
+  base: '/dega-com/'
+}
+} : {}
 
 module.exports = {
   mode: 'universal',
@@ -81,8 +87,8 @@ module.exports = {
   },
 
   /* Router base configuration required for deploying the site on Github pages */
-
-  router: {
-    base: '/dega-com/'
+  default: {
+    ...routerBase
   }
+
 }
