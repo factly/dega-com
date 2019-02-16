@@ -1,6 +1,6 @@
-# dega-com
+# Dega
 
-> Website for Dega CMS
+> Website for Dega
 
 ## Build Setup
 

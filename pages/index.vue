@@ -1,45 +1,27 @@
 <template>
-  <section class="section">
-    <div class="columns is-mobile">
-      <card
-        title="Free"
-        icon="github-circle"
-      >
-        Open source on <a href="https://github.com/buefy/buefy"> GitHub</a>
-      </card>
-
-      <card
-        title="Responsive"
-        icon="cellphone-link"
-      >
-        <b class="has-text-grey">Every</b> component is responsive
-      </card>
-
-      <card
-        title="Modern"
-        icon="alert-decagram"
-      >
-        Built with <a href="https://vuejs.org/">Vue.js</a> and <a href="http://bulma.io/">Bulma</a>
-      </card>
-
-      <card
-        title="Lightweight"
-        icon="arrange-bring-to-front"
-      >
-        No other internal dependency
-      </card>
-    </div>
-  </section>
+  <div>
+    <hero />
+    <about />
+    <features />
+    <contact />
+  </div>
 </template>
 
 <script>
-import Card from '~/components/Card'
+import Hero from '~/components/Hero'
+import About from '~/components/About'
+import Features from '~/components/Features'
+import Contact from '~/components/Contact'
+import '~//node_modules/bulma-timeline/dist/css/bulma-timeline.min.css'
 
 export default {
   name: 'HomePage',
 
   components: {
-    Card
+    Hero,
+    About,
+    Features,
+    Contact
   }
 }
 </script>
