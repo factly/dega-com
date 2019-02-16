@@ -78,5 +78,11 @@ module.exports = {
         })
       }
     }
+  },
+
+  /* Router base configuration required for deploying the site on Github pages */
+
+  router: {
+    base: '/dega-com/'
   }
 }
