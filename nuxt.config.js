@@ -88,5 +88,8 @@ module.exports = {
   },
 
   /* Router base set to degacom for deployment on Github Pages */
-  routerBase
+  //routerBase
+  router: {
+    base: '/dega-com/'
+  }
 }
