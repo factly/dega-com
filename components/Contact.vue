@@ -10,7 +10,7 @@
         </h4>
       </div>
       <br>
-      <form name="contact" method="POST" data-netlify="true" action="/confirm">
+      <!--<form name="contact" method="POST" data-netlify="true" action="/confirm">
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
@@ -52,7 +52,7 @@
                   <textarea class="textarea" placeholder="please be as descriptive as possible" name="message" />
                 </div>
               </div>
-              <!--<div data-netlify-recaptcha="true" />-->
+              &lt;!&ndash;<div data-netlify-recaptcha="true" />&ndash;&gt;
               <div class="field is-grouped has-text-centered">
                 <div class="control">
                   <button class="button is-link is-medium" type="submit">
@@ -66,9 +66,9 @@
             </div>
           </div>
         </div>
-      </form>
+      </form>-->
     </div>
-    <!--<form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true">
       <p>
         <label>Your Name: <input type="text" name="name"></label>
       </p>
@@ -83,7 +83,7 @@
           Send
         </button>
       </p>
-    </form>-->
+    </form>
   </section>
 </template>
 
