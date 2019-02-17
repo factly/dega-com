@@ -12,9 +12,12 @@
       <br>
     </div>
     <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Your Name: <input type="text" name="name"></label>
-      </p>
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="full name" name="fullName">
+        </div>
+      </div>
       <p>
         <label>Your Email: <input type="email" name="email"></label>
       </p>
@@ -32,6 +35,7 @@
     </form>
   </section>
 </template>
+
 
 <script>
 export default {
