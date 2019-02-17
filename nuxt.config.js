@@ -1,12 +1,5 @@
 const pkg = require('./package')
 
-/* only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES` */
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/dega-com/'
-  }
-} : {}
-
 module.exports = {
   mode: 'universal',
 
@@ -85,11 +78,5 @@ module.exports = {
         })
       }
     }
-  },
-
-  /* Router base set to degacom for deployment on Github Pages */
-  routerBase
-  /*router: {
-    base: '/dega-com/'
-  }*/
+  }
 }
