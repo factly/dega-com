@@ -1,6 +1,6 @@
 <template>
-  <section id="contact" class="section has-background-grey-lighter">
-    <!--   <div class="container">
+  <section id="contact" class="section has-background-primary">
+    <div class="container">
       <div class="section-heading is-marginless">
         <h3 class="title is-2">
           Contact
@@ -10,7 +10,7 @@
         </h4>
       </div>
       <br>
-      <form name="contact" method="POST" data-netlify="true" action="https://degafactcheck.com/confirm">
+      <form name="contact" method="POST" data-netlify="true">
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
@@ -67,8 +67,8 @@
           </div>
         </div>
       </form>
-    </div>-->
-    <form name="contact" method="POST" data-netlify="true">
+    </div>
+    <!--<form name="contact" method="POST" data-netlify="true">
       <p>
         <label>Your Name: <input type="text" name="name"></label>
       </p>
@@ -83,7 +83,7 @@
           Send
         </button>
       </p>
-    </form>
+    </form>-->
   </section>
 </template>
 
