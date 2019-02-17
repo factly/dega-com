@@ -19,6 +19,9 @@
         <label>Your Email: <input type="email" name="email"></label>
       </p>
       <p>
+        <label>Your Phone: <input type="phone" name="phone"></label>
+      </p>
+      <p>
         <label>Message: <textarea name="message" /></label>
       </p>
       <p>
