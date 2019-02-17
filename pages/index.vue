@@ -11,7 +11,6 @@
 import Hero from '~/components/Hero'
 import About from '~/components/About'
 import Features from '~/components/Features'
-import Contact from '~/components/Contact'
 import '~//node_modules/bulma-timeline/dist/css/bulma-timeline.min.css'
 
 export default {
@@ -20,8 +19,7 @@ export default {
   components: {
     Hero,
     About,
-    Features,
-    Contact
+    Features
   }
 }
 </script>

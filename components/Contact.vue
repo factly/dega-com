@@ -52,7 +52,7 @@
                   <textarea class="textarea" placeholder="please be as descriptive as possible" name="message" />
                 </div>
               </div>
-              <div data-netlify-recaptcha="true" />
+              <!--<div data-netlify-recaptcha="true" />-->
               <div class="field is-grouped has-text-centered">
                 <div class="control">
                   <button class="button is-link is-medium" type="submit">

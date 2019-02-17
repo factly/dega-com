@@ -32,7 +32,7 @@
             </span>
             <span>Team</span>
           </a>
-          <a class="navbar-item" href="#contact">
+          <a class="navbar-item" href="/contact">
             <span class="icon">
               <i class="fas fa-envelope" />
             </span>
