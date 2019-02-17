@@ -10,7 +10,7 @@
         </h4>
       </div>
       <br>
-      <form name="contact" method="POST" data-netlify="true" action="/#contact">
+      <form name="contact" method="POST" data-netlify="true" action="https://degafactcheck.com">
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
