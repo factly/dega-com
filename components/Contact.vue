@@ -10,63 +10,64 @@
         </h4>
       </div>
       <br>
-
-      <div class="columns">
-        <div class="column is-6 is-offset-3">
-          <div class="box">
-            <div class="field">
-              <label class="label">Name</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="full name">
+      <form name="contact" method="POST" data-netlify="true">
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <div class="box">
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="full name" name="fullName">
+                </div>
               </div>
-            </div>
-            <div class="field">
-              <label class="label">Organisation</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="organisation name">
+              <div class="field">
+                <label class="label">Organisation</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="organisation name" name="organisation">
+                </div>
               </div>
-            </div>
 
-            <div class="field">
-              <label class="label">Email</label>
-              <div class="control has-icons-left">
-                <input class="input" type="email" placeholder="valid email address" value="">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope" />
-                </span>
-              </div>
-            </div>
-
-            <div class="field">
-              <label class="label">Phone</label>
-              <div class="control has-icons-left">
-                <input class="input" type="text" placeholder="include the country code">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-phone" />
-                </span>
-              </div>
-            </div>
-
-            <div class="field">
-              <label class="label">Message</label>
-              <div class="control">
-                <textarea class="textarea" placeholder="please be as descriptive as possible" />
-              </div>
-            </div>
-
-            <div class="field is-grouped has-text-centered">
-              <div class="control">
-                <button class="button is-link is-medium">
-                  <span class="icon">
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="email" placeholder="valid email address" name="email">
+                  <span class="icon is-small is-left">
                     <i class="fas fa-envelope" />
                   </span>
-                  <span>Submit</span>
-                </button>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Phone</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="text" placeholder="include the country code" name="phone">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-phone" />
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="please be as descriptive as possible" name="message" />
+                </div>
+              </div>
+
+              <div class="field is-grouped has-text-centered">
+                <div class="control">
+                  <button class="button is-link is-medium" type="submit">
+                    <span class="icon">
+                      <i class="fas fa-envelope" />
+                    </span>
+                    <span>Submit</span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </section>
 </template>
