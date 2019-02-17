@@ -49,11 +49,16 @@
           <textarea class="textarea" placeholder="please be as descriptive as possible" name="message" />
         </div>
       </div>
-      <p>
-        <button type="submit">
-          Send
-        </button>
-      </p>
+      <div class="field is-grouped has-text-centered">
+        <div class="control">
+          <button class="button is-link is-medium" type="submit">
+            <span class="icon">
+              <i class="fas fa-envelope" />
+            </span>
+            <span>Submit</span>
+          </button>
+        </div>
+      </div>
     </form>
   </section>
 </template>
