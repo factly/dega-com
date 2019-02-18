@@ -20,13 +20,13 @@
             </span>
             <span>About</span>
           </a>
-          <a class="navbar-item" href="#features">
+          <a class="navbar-item" href="/features">
             <span class="icon">
               <i class="fas fa-award" />
             </span>
             <span>Features</span>
           </a>
-          <a class="navbar-item" href="#team">
+          <a class="navbar-item" href="/team">
             <span class="icon">
               <i class="fas fa-users" />
             </span>

@@ -14,7 +14,7 @@
 import Contact from '~/components/Contact'
 
 export default {
-  name: 'ContactUs',
+  name: 'ContactPage',
 
   components: {
     Contact

@@ -10,7 +10,7 @@
         </h2>
         <br>
         <p class="has-text-centered">
-          <a href="#about" class="button is-medium is-warning is-outlined">
+          <a href="/about" class="button is-medium is-warning is-outlined">
             Learn more
           </a>
         </p>
@@ -19,7 +19,7 @@
     <div class="hero-foot">
       <div class="container">
         <p class="has-text-centered">
-          <a href="#contact" class="has-text-warning">Write to us if you are interested to try Dega for your fact check initiatives.</a>
+          <a href="/contact" class="has-text-warning">Write to us if you are interested to try Dega for your fact check initiatives.</a>
         </p>
       </div>
     </div>
