@@ -14,7 +14,7 @@
 
       <div class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item" href="#about">
+          <a class="navbar-item" href="/about">
             <span class="icon">
               <i class="fas fa-info-circle" />
             </span>
@@ -26,12 +26,12 @@
             </span>
             <span>Features</span>
           </a>
-          <a class="navbar-item" href="/team">
+          <!--<a class="navbar-item" href="/team">
             <span class="icon">
               <i class="fas fa-users" />
             </span>
             <span>Team</span>
-          </a>
+          </a>-->
           <a class="navbar-item" href="/contact">
             <span class="icon">
               <i class="fas fa-envelope" />
