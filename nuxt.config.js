@@ -73,7 +73,7 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/,
           options: {
-            fix: true
+            fix: false
           }
         })
       }

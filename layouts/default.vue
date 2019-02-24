@@ -54,7 +54,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer has-background-primary has-text-white" style="padding-top: 1rem; padding-bottom: 1rem">
+    <footer class="footer has-background-dark has-text-white" style="padding-top: 1rem; padding-bottom: 1rem">
       <div class="has-text-centered">
         <p>
           The project is funded by <strong class="has-text-warning">Google Inc.</strong> and is developed by

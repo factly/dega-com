@@ -1,4 +1,24 @@
 /* styles added by shashi start here */
+.is-cover-page{
+  background-image: url('~assets/images/cover-page.png');
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Makes the paragraph and div elements sticky */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: yellow; */
+  padding: 50px;
+  font-size: 20px;
+}
 
 /* Show border right for centered timeline item on left */
 .is-centered .timeline-content .message .border-right{
@@ -48,7 +68,7 @@ th {
 .section-heading {
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 6em;
+  margin-bottom: 1em;
 }
 
 /* Hero Template CSS Begins */
