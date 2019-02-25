@@ -1,7 +1,7 @@
 {
   "name": "Dega",
   "version": "1.0.0",
-  "description": "Website for Dega",
+  "description": "Dega is an open source publishing platform that integrates all the best practices of the ‘fact-checking’ ecosystem as mandated by the International Fact Checking Network (IFCN) Code of principles. It enables you to seamlessly publish fact-check stories like any other.",
   "author": "Factly Media &amp; Research LLC",
   "private": true,
   "scripts": {
