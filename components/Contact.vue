@@ -12,7 +12,7 @@
       <br>
     </div>
 
-    <form name="contactus" method="POST" data-netlify="true" action="/success">
+    <form name="contactus" method="POST" action="/success">
       <div class="field">
         <label class="label has-text-white">Name</label>
         <div class="control">
@@ -49,7 +49,6 @@
           <textarea class="textarea" placeholder="please be as descriptive as possible" name="message" />
         </div>
       </div>
-      <!--<div data-netlify-recaptcha="true" />-->
       <div class="field is-grouped has-text-centered">
         <div class="control">
           <button class="button is-warning is-medium" type="submit">
