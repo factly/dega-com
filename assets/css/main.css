@@ -10,6 +10,17 @@
   background-size: cover;
 }
 
+.is-mobile-cover-page{
+  background-image: url('~assets/images/mobile-cover-page.png');
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Makes the paragraph and div elements sticky */
 .sticky {
   position: -webkit-sticky;
