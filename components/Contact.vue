@@ -12,7 +12,7 @@
       <br>
     </div>
 
-    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+    <form name="contactus" method="POST" data-netlify="true" data-netlify-recaptcha="true">
       <div class="field">
         <label class="label has-text-white">Name</label>
         <div class="control">
