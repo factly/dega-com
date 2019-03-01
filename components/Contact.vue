@@ -12,7 +12,7 @@
       <br>
     </div>
 
-    <form name="contactus" method="POST" action="/success">
+    <form name="contactus" method="POST">
       <div class="field">
         <label class="label has-text-white">Name</label>
         <div class="control">
