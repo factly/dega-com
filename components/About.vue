@@ -11,7 +11,7 @@
         </h3>
       </div>
       <div>
-        <div class="container is-left">
+        <div class="container is-left has-text-justified">
           <p>With so much information being published around every day, we just do not know what to trust. Coupled with this is the rise of Misinformation (Fake News). In the recent years, ‘Fact Checking’ has emerged as a powerful solution to the Misinformation problem. But the existing publishing platforms do not enable seamless publishing of fact-check stories that comply with the best practices of the ‘fact-checking’ ecosystem. The upside is that there is no problem that doesn’t have a solution.</p><br>
           <p class="has-text-centered has-text-weight-bold">
             Dega is the answer!
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div style="background-color: #EFF3F4" class="has-background-soundcloud">
+    <div style="background-color: #EFF3F4" class="has-background-soundcloud has-text-justified">
       <div class="section intro column is-8 is-offset-2 has-text-centered">
         <h2 class="title is-4">
           Let’s understand it further

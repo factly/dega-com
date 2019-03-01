@@ -1,5 +1,5 @@
 <template>
-  <section id="features" class="section">
+  <section id="features" class="section has-text-justified">
     <div class="section-heading" style="margin-bottom: 2rem">
       <h3 class="title is-2">
         Features
