@@ -3,7 +3,7 @@
     <div class="container">
       <div class="section-heading is-marginless">
         <h3 class="title is-2">
-          Contact
+          Contact Us
         </h3>
         <h4 class="subtitle is-5">
           We love to hear from you if you have any comments or if you want to give Dega a try for your fact-checking initiative. <br>
