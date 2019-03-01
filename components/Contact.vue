@@ -6,13 +6,14 @@
           Contact
         </h3>
         <h4 class="subtitle is-5">
-          We love to hear from you if you have any comments or if you want to give Dega a try for your fact-checking initiative.
+          We love to hear from you if you have any comments or if you want to give Dega a try for your fact-checking initiative. <br>
+          Please write to us at hi@factly.in and someone from the team will reach out to you soon. Thanks!
         </h4>
       </div>
       <br>
     </div>
 
-    <form name="contactform" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+    <!--<form name="contactform" method="POST" data-netlify="true" data-netlify-recaptcha="true">
       <div class="field">
         <label class="label has-text-white">Name</label>
         <div class="control">
@@ -60,7 +61,7 @@
           </button>
         </div>
       </div>
-    </form>
+    </form>-->
   </section>
 </template>
 
