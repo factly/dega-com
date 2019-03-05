@@ -5,14 +5,14 @@
         <a class="navbar-item" href="/">
           <img src="@/assets/images/logo.png" alt="Dega: Open source fact check publishing platform." width="112" height="28">
         </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="toggleNavBar = !toggleNavBar">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span />
           <span />
           <span />
         </div>
       </div>
 
-      <div :class="{ 'is-active': toggleNavBar }" class="navbar-menu">
+      <div class="navbar-menu">
         <div class="navbar-end">
           <a class="navbar-item" href="/about">
             <span class="icon">
@@ -57,7 +57,7 @@
     <footer class="footer has-background-dark has-text-white" style="padding-top: 1rem; padding-bottom: 1rem">
       <div class="has-text-centered">
         <p>
-          The platform is developed by
+          The platform is is developed by
           <strong class="has-text-warning">Factly Media & Research.</strong>
         </p>
       </div>
@@ -80,9 +80,7 @@ export default {
           icon: 'lightbulb',
           to: { name: 'inspire' }
         }
-      ],
-      toggleNavBar: false,
-      toggleMore: true
+      ]
     }
   }
 }
