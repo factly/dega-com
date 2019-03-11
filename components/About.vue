@@ -29,7 +29,7 @@
           Now, we have different checks that a fact checked article has to go through. Dega just brings all of those standards together so you don’t have to go to waste time in manually checking for them or going to different places for enforcing these standards including the ‘Claim Review’ schema.
         </p><br>
         <p class="has-text-left">
-          When you publish a fact-check article on Dega, the output is complaint with the ‘Claim Review’ schema as well as the standards of the IFCN.
+          When you publish a fact-check article on Dega, the output is compliant with the ‘Claim Review’ schema as well as the standards of the IFCN.
         </p><br>
       </div>
       <section class="container is-paddingless-top is-hidden-mobile" style="padding-bottom: 2rem;">
@@ -85,18 +85,6 @@
               </p>
               <div class="content">
                 <p>Dega is available for organizations (small or big) and existing publishers. Since Dega is built on Micro-Service architecture, all the features are exposed as REST API for organizations that would like to build their own UI or integrate Dega with their existing interface. </p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="tile is-ancestor has-text-centered">
-          <div class="tile is-parent is-shady">
-            <article class="tile is-child notification is-white">
-              <p class="title is-4">
-                Why should you choose Dega?
-              </p>
-              <div class="content">
-                <p>Going forward, Fact-Checking is going to become a mainstay of any newsroom. With all technology platforms moving towards using ‘Claim Review’ schema as a means to identify fact-check content, Dega helps newsrooms implement this seamlessly without any major changes to the existing technical architecture. </p>
               </div>
             </article>
           </div>
