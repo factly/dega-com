@@ -5,14 +5,14 @@
         <a class="navbar-item" href="/">
           <img src="@/assets/images/logo.png" alt="Dega: Open source fact check publishing platform." width="112" height="28">
         </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="toggleNavBar = !toggleNavBar">
           <span />
           <span />
           <span />
         </div>
       </div>
 
-      <div class="navbar-menu">
+      <div :class="{ 'is-active': toggleNavBar }" class="navbar-menu">
         <div class="navbar-end">
           <a class="navbar-item" href="/about">
             <span class="icon">
@@ -69,6 +69,7 @@
 export default {
   data() {
     return {
+      toggleNavBar: false,
       items: [
         {
           title: 'Home',
